@@ -25,7 +25,7 @@ public class SampleWebSeleniumForPocTest {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\ktara\\IdeaProjects\\SelenideVsPlaywright\\src\\test\\resource\\chromedriver.exe");
 
         ChromeOptions options = new ChromeOptions();
-       // options.addArguments("--headless");
+        options.addArguments("--headless");
 
 
         driver = new ChromeDriver(options);
