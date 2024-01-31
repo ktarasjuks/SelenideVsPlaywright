@@ -20,6 +20,9 @@ dependencies {
     testImplementation group: 'com.microsoft.playwright', name: 'playwright', version: '1.36.0'
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
     testImplementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml
+    testImplementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.16.1'
+
 
 
 
